@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #6809e1;
+}
+
+.App {
+  font-family: "Roboto", Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  transition: all 1s ease;
+}
+
+.App.Dark {
+  background-color: rgb(44, 42, 42);
+  color: white;
+}
+
+.App.Light {
+  background-color: white;
+  color: black;
+}
+.Dark .body {
+  background-color: rgb(44, 42, 42);
+}
+
+.Dark .App {
+  background-color: rgb(44, 42, 42);
+}
+
+.subtitle {
+  padding: 40px;
+  font-size: 30px;
+}
+.noResults {
+  padding: 40px;
+  font-size: 30px;
+}
+@media only screen and (max-width: 750px) and (min-width: 250px) {
+  .subtitle {
+    padding: 20px;
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,38 @@
+.btn {
+  position: relative;
+  bottom: 50px;
+  left: 350px;
+  width: 148px;
+  height: 43px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: white;
+  color: #6809e1;
+  border: 1px solid #6809e1;
+  box-sizing: border-box;
+  border-radius: 61px;
+  cursor: pointer;
+}
+
+.Dark .btn {
+  background-color: rgb(44, 42, 42);
+  color: white;
+  border: 1px solid white;
+}
+
+@media only screen and (min-width: 750px) and (max-width: 900px) {
+  .btn {
+    left: 290px;
+  }
+}
+@media only screen and (max-width: 750px) and (min-width: 250px) {
+  .btn {
+    bottom: 50px;
+    left: 115px;
+    width: 100px;
+    height: 43px;
+    font-size: 15px;
+  }
+}

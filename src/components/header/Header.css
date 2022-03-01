@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+}
+.logoContainer {
+  margin-right: 650px;
+}
+/*          MEDIA QUERY  /   TABLET      */
+/*          MEDIA QUERY  /   TABLET      */
+/*          MEDIA QUERY  /   TABLET      */
+
+@media only screen and (max-width: 750px) and (min-width: 250px) {
+  .header {
+    width: 100%;
+    margin: auto;
+  }
+  .logoContainer img {
+    width: 50px;
+  }
+  .logoContainer {
+    margin-right: 285px;
+  }
+}

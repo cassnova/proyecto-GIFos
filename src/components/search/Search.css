@@ -1,0 +1,98 @@
+.title {
+  color: #572ee5;
+  size: 36px;
+}
+
+.Search {
+  text-align: center;
+}
+.searchBar {
+  width: 542px;
+  height: 52px;
+  left: 868px;
+  top: 403px;
+
+  border: 1px solid #121212;
+  box-sizing: border-box;
+  border-radius: 61px;
+}
+.btnSearch {
+  background-color: #572ee5;
+  position: relative;
+  border-radius: 0 61px 61px 0;
+  height: 52px;
+  width: 82px;
+  right: 56px;
+  top: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.autocomplete {
+  width: 465px;
+  margin: auto;
+  position: relative;
+
+  right: 58px;
+  cursor: pointer;
+}
+.autocomplete:hover {
+  background-color: grey;
+}
+.autocomplete p {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 8px;
+  border: 1px solid #121212;
+}
+.autocomplete p:hover {
+  color: white;
+}
+input::placeholder {
+  font-size: 18px;
+  font-weight: 100;
+  color: #3f3f3f;
+  font-family: Roboto;
+  padding: 30px;
+}
+
+@media only screen and (max-width: 750px) and (min-width: 250px) {
+  .title {
+    font-size: 10px;
+  }
+  .imgGifos {
+    width: 280px;
+  }
+  .searchBar {
+    width: 250px;
+    margin-left: 20px;
+  }
+  .btnSearch {
+    height: 52px;
+    top: -1px;
+    left: -25px;
+  }
+  .autocomplete {
+    width: 270px;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    cursor: pointer;
+  }
+  .autocomplete p {
+    font-size: 25px;
+    text-align: left;
+    padding-left: 8px;
+    border: 1px solid #121212;
+  }
+
+  .containerBar input {
+    font-size: 28px;
+  }
+  .title {
+    font-size: 46px;
+  }
+}
+.charging {
+  font-size: 46px;
+}
